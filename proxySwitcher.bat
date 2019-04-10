@@ -16,7 +16,7 @@ IF ERRORLEVEL 2 GOTO ProxyOFF
 IF ERRORLEVEL 1 GOTO ProxyON
 
 :ProxyON
-netsh winhttp set proxy https://192.168.8.50:3128
+netsh winhttp set proxy ENTER-PROXY-HERE
 GOTO REPEAT
 
 :ProxyOFF
